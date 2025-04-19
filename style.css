@@ -1,0 +1,72 @@
+
+body { 
+    background-image: url('back_halftransparent.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #838383;
+}
+
+
+
+body { 
+    background-image: url('back_halftransparent.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #838383;
+}
+
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: -15;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('animatedoverlay.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    pointer-events: none;
+    z-index: 2;
+    
+    transform: scale(0.4) translateX(-100px) translateY(-30px);
+    transform-origin: center center;
+}
+
+.contact-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+.contact-image img {
+    width: auto;
+    height: auto;
+}
+
+
+.contact-image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+.contact-image img {
+    width: auto;
+    height: auto;
+}
