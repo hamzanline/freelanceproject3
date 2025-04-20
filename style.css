@@ -13,42 +13,188 @@ body {
 
 
 
-/*body::before {
+body::before {
     content: "";
     position: fixed;
     top: -15;
     left: 0;
-    width: 100vw;
+    width: 150vw;
     height: 100vh;
     background-image: url('animatedoverlay.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: -400px;
     background-attachment: fixed;
-    background-size: cover;
+    
     pointer-events: none;
     z-index: 2;
     
-    transform: scale(0.4) translateX(-100px) translateY(-30px);
+    transform: scale(0.6) translateX(110px) translateY(-60px);
     transform-origin: center center;
-}*/
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-
-    background-image: url('animatedoverlay.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-
-    pointer-events: none;
-    z-index: 2;
 }
+
+@media (max-width: 1350px) {
+    body::before {
+        transform: scale(0.6) translateX(105px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1300px) {
+    body::before {
+        transform: scale(0.56) translateX(45px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1250px) {
+    body::before {
+        transform: scale(0.56) translateX(35px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1200px) {
+    body::before {
+        transform: scale(0.54) translateX(0px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1150px) {
+    body::before {
+        transform: scale(0.54) translateX(-15px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1100px) {
+    body::before {
+        transform: scale(0.54) translateX(-30px) translateY(-60px);
+    }
+}
+
+
+@media (max-width: 1050px) {
+    body::before {
+        transform: scale(0.54) translateX(-40px) translateY(-60px);
+    }
+}
+
+@media (max-width: 1000px) {
+    body::before {
+        transform: scale(0.54) translateX(-60px) translateY(-60px);
+    }
+}
+
+@media (max-width: 950px) {
+    body::before {
+        transform: scale(0.54) translateX(-70px) translateY(-60px);
+    }
+}
+
+@media (max-width: 900px) {
+    body::before {
+        transform: scale(0.54) translateX(-90px) translateY(-60px);
+    }
+}
+
+@media (max-width: 850px) {
+    body::before {
+        transform: scale(0.54) translateX(-100px) translateY(-60px);
+    }
+}
+
+@media (max-width: 800px) {
+    body::before {
+        transform: scale(0.54) translateX(-115px) translateY(-60px);
+    }
+}
+
+@media (max-width: 750px) {
+    body::before {
+        transform: scale(0.54) translateX(-125px) translateY(-60px);
+    }
+}
+
+@media (max-width: 700px) {
+    body::before {
+        transform: scale(0.55) translateX(-138px) translateY(-60px);
+    }
+}
+
+
+@media (max-width: 650px) {
+    body::before {
+        transform: scale(0.55) translateX(-148px) translateY(-60px);
+    }
+}
+
+@media (max-width: 600px ) {
+    body::before {
+        transform: scale(0.55) translateX(-167px) translateY(-60px)
+    }
+}
+
+@media (max-width: 550px ) {
+    body::before {
+        transform: scale(0.55) translateX(-177px) translateY(-60px)
+    }
+}
+
+@media (max-width: 500px ) {
+	body::before {
+		transform: scale(0.55) translateX(-200px) translateY(-60px);
+	}
+}
+/**/
+
+@media (max-height: 390px) {
+    body::before {
+        transform: scale(0.43) translate(-265px, -55px);
+    }
+}
+
+
+@media (max-height: 360px) {
+    body::before {
+        transform: scale(0.56) translate(60px, -60px);
+    }
+}
+
+
+
+@media (max-height: 310px) {
+    body::before {
+        transform: scale(0.2) translate(-530px, -20px);
+    }
+}
+@media (max-height: 300px) {
+    body::before {
+        transform: scale(0.2) translate(-540px, -30px);
+    }
+}
+@media (max-height: 290px) {
+    body::before {
+        transform: scale(0.2) translate(-550px, -40px);
+    }
+}
+@media (max-height: 280px) {
+    body::before {
+        transform: scale(0.2) translate(-560px, -50px);
+    }
+}
+@media (max-height: 270px) {
+    body::before {
+        transform: scale(0.2) translate(-570px, -65px);
+    }
+}
+
+@media (max-height: 260px) {
+    body::before {
+        transform: scale(0.2) translate(-580px, -80px);
+    }
+}
+
+
+
+
+
+
 
 
 .contact-image {
@@ -61,3 +207,6 @@ body::before {
     width: auto;
     height: auto;
 }
+
+
+
